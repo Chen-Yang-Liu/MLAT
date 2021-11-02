@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+
+from utils import create_input_files2
+import argparse
+import os
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Image_Captioning')
+    parser.add_argument('--dataset', default="RSICD", help='Default MSCOCO 14 Dataset.')
+    parser.add_argument('--karpathy_json_path', default="D:/LCY/RSICD_captions/dataset.json",help='path of captions dataset.')#dataset_rsicd_modified
+    parser.add_argument('--image_folder', default="D:/LCY/RSICD_captions/images/", help='path of image dataset.')
+    parser.add_argument('--captions_per_image', type=int, default=5, help='How many captions each image has?')
+    parser.add_argument('--min_word_freq', type=int, default=5, help='the minimum frequency of words')
+    parser.add_argument('--output_folder', default='D:/LCY/RSICD_captions/data2', help='output filepath.')
+    parser.add_argument('--max_len', type=int, default=50, help='the maximum length of each caption.')
+    args = parser.parse_args()
+
+    if not (os.path.exists(args.output_folder) and os.path.isdir(args.output_folder)):
+        os.makedirs(args.output_folder)
+    # Create input files (along with word map)
+    create_input_files2(dataset=args.dataset,
+                       karpathy_json_path=args.karpathy_json_path,
+                       image_folder=args.image_folder,
+                       captions_per_image=args.captions_per_image,
+                       min_word_freq=args.min_word_freq,
+                       output_folder=args.output_folder,
+                       max_len=args.max_len)
