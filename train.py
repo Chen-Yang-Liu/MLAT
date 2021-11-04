@@ -422,7 +422,7 @@ if __name__ == '__main__':
             CaptionDataset(args.data_folder, args.data_name, 'TRAIN', transform=transforms.Compose([normalize])),
             batch_size=args.batch_size, shuffle=True, num_workers=args.workers, pin_memory=True)
         val_loader = torch.utils.data.DataLoader(
-            CaptionDataset(args.data_folder, args.data_name, 'TEST', transform=transforms.Compose([normalize])),
+            CaptionDataset(args.data_folder, args.data_name, 'VAL', transform=transforms.Compose([normalize])),
             batch_size=args.batch_size, shuffle=True, num_workers=args.workers, pin_memory=True)
 
         # Epochs
