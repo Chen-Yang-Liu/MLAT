@@ -1,6 +1,6 @@
-# Remote-Sensing Image Captioning Based on Multilayer Aggregated Transformer
+# Remote-Sensing Image Captioning Based on Multi-layer Aggregated Transformer
 paper:
-"Remote-Sensing Image Captioning Based on Multilayer Aggregated Transformer" at https://ieeexplore.ieee.org/document/9709791
+"Remote-Sensing Image Captioning Based on Multi-layer Aggregated Transformer" at https://ieeexplore.ieee.org/document/9709791
 
 Please cite:
 @ARTICLE{9709791,
