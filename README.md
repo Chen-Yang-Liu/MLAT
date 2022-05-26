@@ -1,8 +1,8 @@
 # Remote Sensing Image Captioning Based on Multi-layer Aggregated Transformer
-paper:
+Official code for paper:
 "Remote Sensing Image Captioning Based on Multi-layer Aggregated Transformer" at https://ieeexplore.ieee.org/document/9709791
 
-Please cite: \n
+## Please cite: 
 @ARTICLE{9709791,
   author={Liu, Chenyang and Zhao, Rui and Shi, Zhenwei},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
