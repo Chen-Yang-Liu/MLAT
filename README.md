@@ -2,7 +2,18 @@
 Official code for paper:
 "Remote Sensing Image Captioning Based on Multi-layer Aggregated Transformer" at https://ieeexplore.ieee.org/document/9709791
 
+## Train
+```python
+python create_input_files.py
+python train.py
+```
+## Test
+```python
+python eval.py
+```
+
 ## Please cite: 
+```
 @ARTICLE{9709791,
   author={Liu, Chenyang and Zhao, Rui and Shi, Zhenwei},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
@@ -12,11 +23,8 @@ Official code for paper:
   number={},
   pages={1-5},
   doi={10.1109/LGRS.2022.3150957}}
-
+```
 code reference:
 https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning.git
 
-```python
-mean = [0.485, 0.456, 0.406]
-std = [0.229, 0.224, 0.225]
-```
+
