@@ -2,7 +2,7 @@
 paper:
 "Remote Sensing Image Captioning Based on Multi-layer Aggregated Transformer" at https://ieeexplore.ieee.org/document/9709791
 
-Please cite:
+Please cite: \n
 @ARTICLE{9709791,
   author={Liu, Chenyang and Zhao, Rui and Shi, Zhenwei},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
