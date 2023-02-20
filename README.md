@@ -1,6 +1,9 @@
 # Remote Sensing Image Captioning Based on Multi-layer Aggregated Transformer
-Official code for paper:
-"Remote Sensing Image Captioning Based on Multi-layer Aggregated Transformer" at https://ieeexplore.ieee.org/document/9709791
+Here, we provide the pytorch implementation of the paper: "Remote Sensing Image Captioning Based on Multi-Layer Aggregated Transformer". 
+
+For more information, please see our published paper in [[IEEE](https://ieeexplore.ieee.org/document/9709791) | [Lab Server](http://levir.buaa.edu.cn/publications/Captioning-Based-on-Multilayer-Aggregated-Transformer.pdf)]  ***(Accepted by GRSL 2022)***
+
+![MLAT](images/MLAT.png)
 
 ## Train
 ```python
