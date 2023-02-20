@@ -15,7 +15,7 @@ python train.py
 python eval.py
 ```
 
-## Please cite: 
+## Citation: 
 ```
 @ARTICLE{9709791,
   author={Liu, Chenyang and Zhao, Rui and Shi, Zhenwei},
