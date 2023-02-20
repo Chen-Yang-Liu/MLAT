@@ -28,6 +28,5 @@ python eval.py
   doi={10.1109/LGRS.2022.3150957}}
 ```
 ## Reference:
-https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning.git
-
-
+Thanks to the following repository:
+[a-PyTorch-Tutorial-to-Image-Captioning](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning.git)
