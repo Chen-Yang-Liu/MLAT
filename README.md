@@ -9,7 +9,6 @@ For more information, please see our published paper in [[IEEE](https://ieeexplo
 Firstly, download the RSICD dataset. Then preprocess the data as follows:
 ```python
 python create_input_files.py --karpathy_json_path ./RSICD_captions/dataset_rsicd.json --image_folder ./RSICD_captions/images/
-python train.py
 ```
 After that, you can find some resulted metadata files in `./data/`
 Secondly, train model: 
