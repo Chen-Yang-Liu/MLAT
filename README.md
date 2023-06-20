@@ -6,10 +6,17 @@ For more information, please see our published paper in [[IEEE](https://ieeexplo
 ![MLAT](images/MLAT.png)
 
 ## Train
+Firstly, download the RSICD dataset. Then preprocess the data as follows:
 ```python
-python create_input_files.py
+python create_input_files.py --karpathy_json_path ./RSICD_captions/dataset_rsicd.json --image_folder ./RSICD_captions/images/
 python train.py
 ```
+After that, you can find some resulted metadata files in `./data/`
+Secondly, train model: 
+```python
+python train5.py
+```
+Note: During training, beam search is not used when computing scores on the validation set. To get the evaluation score with the beam search strategy, run the following command to get the score on the test set:
 ## Test
 ```python
 python eval.py
